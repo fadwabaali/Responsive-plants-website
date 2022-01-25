@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--=========== BOX_ICON =============-->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.1/dist/boxicons.js' rel='stylesheet'>
+
+  <!--=========== STYLESHEET =============-->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <!--=========== NAV =============-->
+  <header class="header__sec" id="header">
+    <nav class="container">
+      <!--======= LOGO ========-->
+      <a href="#">
+        <h1 class="logo__sec">
+          <i class='bx bx-leaf'></i> PLANTEX
+        </h1>
+      </a>
+
+      <!--======= MENU ========-->
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About</a>
+        </li>
+        <li class="nav__item">
+          <a href="#products" class="nav__link">Products</a>
+        </li>
+        <li class="nav__item">
+          <a href="#questions" class="nav__link">FAQs</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact Us</a>
+        </li>
+      </ul>
+
+      <!--======= MENU__TOGGLER ========-->
+      <div class="menu__toggler">
+        <i class='bx bx-menu' ></i>
+        <i class='bx bx-x'></i>
+      </div>
+
+      <!--======= DARK__MODE ========-->
+      <div class="dark__mode">
+        <i class='bx bx-sun' ></i>
+        <i class='bx bx-moon' ></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--=========== MAIN =============-->
+  <main>
+    <!--=========== HOME =============-->
+    <section class="home__sec section" id="home">
+      <div class="home__container grid container">
+        <img src="./img/home.png" alt="" class="home__img">
+        <div class="links-home">
+          <div class="home__links">
+            <h2>Follow Us</h2>
+            <ul class="home__social__links">
+              <li>
+                <a href="https://www.facebook.com/">
+                  <i class='bx bxl-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/">
+                  <i class='bx bxl-instagram'></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/">
+                  <i class='bx bxl-twitter'></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="home__data">
+          <h1 class="home__title">
+            Plants will make <br> your life better
+          </h1>
+          <p class="home__desc">
+            Create incredible plant design for your offices or apastaments. 
+            Add fresness to your new ideas.
+          </p>
+          <a href="#" class="btn__primary">Explore <i class='bx bx-down-arrow-alt'></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--=========== ABOUT =============-->
+    <section class="about__sec section" id="about">
+      <div class="about__container grid container">
+        <div class="about__img">
+          <img src="./img/about.png" alt="about-png">
+        </div>
+        <div class="about__data">
+          <h2 class="sub__tittle">
+            Who we really are & <br> why choose us
+          </h2>
+          <p>
+            We have over 4000+ unbiased reviews and our customers 
+            trust our plant process and delivery service every time
+          </p>
+          <p><i class='bx bxs-checkbox-checked checked__icon'></i> We always deliver on time.</p>
+          <p><i class='bx bxs-checkbox-checked checked__icon'></i> We give you guides to protect and care for your plants.</p>
+          <p><i class='bx bxs-checkbox-checked checked__icon'></i> We always come over for a check-up after sale.</p>
+          <p><i class='bx bxs-checkbox-checked checked__icon'></i> 100% money back guaranteed.</p>
+
+          <a href="#products" class="about__link">Shop Now <i class='bx bx-down-arrow-alt'></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--=========== BLOG__STEPS =============-->
+    <section class="blog__sec section" id="blog">
+      <div class="blog__container container">
+        <h2 class="sub__tittle__spe">
+          Steps to start your <br> plants off right
+        </h2>
+        <div class="cards__content grid">
+          <div class="card">
+            <span class="nums">01</span>
+            <h3>Choose Plant</h3>
+            <p>
+              We have several varieties plants you can choose from
+            </p>
+          </div>
+          <div class="card">
+            <span class="nums">02</span>
+            <h3>Place an order</h3>
+            <p>
+              Once your order is set, we move to the next step which is the shipping.
+            </p>
+          </div>
+          <div class="card">
+            <span class="nums">03</span>
+            <h3>Get plants delivered</h3>
+            <p>
+              Our delivery process is easy, you receive the plant direct to your door.            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=========== PRODUCTS =============-->
+    <section class="products__sec section" id="products">
+      <div class="products__container container">
+        <h2 class="sub__tittle" style="text-align: center;">
+          Check out our <br> products
+        </h2>
+        <p>
+          Here are some selected plants from our showroom, all are in excellent 
+          shape and has a long life span. Buy and enjoy best quality.
+        </p>
+
+        <div class="products__content grid">
+          <div class="product__card">
+            <div class="product__img">
+              <img src="./img/product1.png" alt="">
+            </div>
+            <h3>Cacti Plant</h3>
+            <span class="price">$19.99</span>
+            <span class="shopping-bag">
+              <i class='bx bx-shopping-bag'></i>
+            </span>
+          </div>
+
+          <div class="product__card">
+            <div class="product__img">
+              <img src="./img/product2.png" alt="">
+            </div>
+            <h3>Cactus Plant</h3>
+            <span class="price">$11.99</span>
+            <span class="shopping-bag"><i class='bx bx-shopping-bag'></i></span>
+          </div>
+
+          <div class="product__card">
+            <div class="product__img">
+              <img src="./img/product3.png" alt="">
+            </div>
+            <h3>Aloe Vera Plant</h3>
+            <span class="price">$7.99</span>
+            <span class="shopping-bag"><i class='bx bx-shopping-bag'></i></span>
+          </div>
+
+          <div class="product__card">
+            <div class="product__img">
+              <img src="./img/product4.png" alt="">
+            </div>
+            <h3>Succulent Plant</h3>
+            <span class="price">$5.99</span>
+            <span class="shopping-bag"><i class='bx bx-shopping-bag'></i></span>
+          </div>
+
+          <div class="product__card">
+            <div class="product__img">
+              <img src="./img/product5.png" alt="">
+            </div>
+            <h3>Green Plant</h3>
+            <span class="price">$10.99</span>
+            <span class="shopping-bag"><i class='bx bx-shopping-bag'></i></span>
+          </div>
+
+          <div class="product__card">
+            <div class="product__img">
+              <img src="./img/product6.png" alt="">
+            </div>
+            <h3>Succulent Plant</h3>
+            <span class="price">$8.99</span>
+            <span class="shopping-bag"><i class='bx bx-shopping-bag'></i></span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--=========== QUESTIONS =============-->
+    <section class="questions__sec section" id="questions">
+      <h2 class="sub__tittle" style="text-align: center;">
+        Some common questions <br> were often asked
+      </h2>
+      <div class="qsm__container flex container">
+        <div class="left-side">
+          <div class="qsm__card">
+            <div class="title-qcm">
+              <h3>
+                <i class='bx bx-plus'></i> My flowers are falling off or dying?
+              </h3>
+            </div>
+            <div class="qsm-descp">
+              <p>Plants are easy way to add color energy and transform your 
+                space but which planet is for you. Choosing the right plant.</p>
+            </div>
+          </div>
+
+          <div class="qsm__card">
+            <div class="title-qcm">
+              <h3>
+                <i class='bx bx-plus'></i> What causes leaves to become pale?
+              </h3>
+            </div>
+            <div class="qsm-descp">
+              <p>Plants are easy way to add color energy and transform your 
+                space but which planet is for you. Choosing the right plant.</p>
+            </div>
+          </div>
+
+          <div class="qsm__card">
+            <div class="title-qcm">
+              <h3>
+                <i class='bx bx-plus'></i> What causes brown crispy leaves?
+              </h3>
+            </div>
+            <div class="qsm-descp">
+              <p>Plants are easy way to add color energy and transform your 
+                space but which planet is for you. Choosing the right plant.</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="qsm__card">
+            <div class="title-qcm">
+              <h3>
+                <i class='bx bx-plus'></i> How do i choose a plant?
+              </h3>
+            </div>
+            <div class="qsm-descp">
+              <p>Plants are easy way to add color energy and transform your 
+                space but which planet is for you. Choosing the right plant.</p>
+            </div>
+          </div>
+
+          <div class="qsm__card">
+            <div class="title-qcm">
+              <h3>
+                <i class='bx bx-plus'></i> How do I change the pots?
+              </h3>
+            </div>
+            <div class="qsm-descp">
+              <p>Plants are easy way to add color energy and transform your 
+                space but which planet is for you. Choosing the right plant.</p>
+            </div>
+          </div>
+
+          <div class="qsm__card">
+            <div class="title-qcm">
+              <h3>
+                <i class='bx bx-plus'></i> Why are gnats flying around my plant?
+              </h3>
+            </div>
+            <div class="qsm-descp">
+              <p>Plants are easy way to add color energy and transform your 
+                space but which planet is for you. Choosing the right plant.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=========== CONTACT__US =============-->
+    <section class="contact__sec section" id="contact">
+      <div class="contact__container grid container">
+        <div class="contact__data">
+          <h2 class="sub__tittle" style="text-align: start;" >
+            Reach out to us today <br> via any of the given <br> information
+          </h2>
+          <h3>Call us for instant support</h3>
+          <p><i class='bx bx-phone'></i> +999 888 777</p>
+          <h3>Write us by mail</h3>
+          <p><i class='bx bx-envelope'></i>user@email.com</p>
+        </div>
+        <div class="contact__form">
+          <form action="">
+            <label class="contact__label" for="email">Email</label>
+            <input class="contact__input" type="email" name="email" id="email" required>
+            <label class="contact__label" for="subject">Subject</label>
+            <input class="contact__input" type="text" name="subject" id="subject" required>
+            <label class="contact__label" for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+            <button type="submit" class="btn__primary">
+                Send Message <i class='bx bx-up-arrow-alt'></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer__sec section">
+    <div class="footer__container container grid">
+      <div class="footer__data">
+        <a href="#">
+          <h1 class="logo__sec" style="margin-bottom: var(--mg-8);">
+            <i class='bx bx-leaf'></i> PLANTEX
+          </h1>
+        </a>
+        <h3 class="footer__tittle">Subscribe to our newsletter <br> to stay update</h3>
+        <div class="footer__label">
+          <input class="footer__input" type="email" placeholder="Enter Your Email">
+          <a href="#" class="btn__primary">Subscribe <i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+      </div>
+      <div class="footer__information">
+        <h3 class="footer__tittle">Our Address</h3>
+          <ul>
+            <li class="footer__item">1234 - Peru</li>
+            <li class="footer__item">La Libertad - 43210</li>
+            <li class="footer__item">123-456-789</li>
+          </ul>
+      </div>
+      <div class="footer__social__link">
+        <h3 class="footer__tittle">Contact Us</h3>
+        <ul>
+          <li class="footer__item">+999 888 777</li>
+          <li class="footer__item">
+            <span><a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a></span>
+            <span><a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a></span>
+            <span><a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__credit__cards">
+        <h3 class="footer__tittle">We accept all credit cards</h3>
+        <ul>
+          <li><img src="./img/card1.png" alt="VISA"></li>
+          <li><img src="./img/card2.png" alt="card2"></li>
+          <li><img src="./img/card3.png" alt="Paypal"></li>
+          <li><img src="./img/card4.png" alt="Discover"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy__right">
+      <p>&#169; FadwaCode. All rigths reserved.</p>
+    </div>
+  </footer>
+
+  <!--=========== JS =============-->
+  <script src="./js/main.js"></script>
+</body>
+</html>
